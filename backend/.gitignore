@@ -1,0 +1,9 @@
+# filepath: [.gitignore](http://_vscodecontentref_/3)
+node_modules/
+.env
+logs/
+*.log
+dist/
+.DS_Store
+.vscode/
+.idea/

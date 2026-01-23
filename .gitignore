@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .env
+
+# Frontend build
+frontend/dist

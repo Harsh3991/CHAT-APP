@@ -45,7 +45,7 @@ app.use("/api/messages", messageRoutes);
 
 // Health check endpoint
 app.get("/api/health", (req, res) => {
-  res.status(200).json({ status: "ok" });
+  res.status(200).json({ status: "ok", message: "Server is running" });
 });
 
 // Serve static frontend files in production

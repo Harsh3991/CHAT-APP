@@ -5,10 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "build": "npm run build:frontend",
-    "build:frontend": "cd frontend && npm install && npm run build",
-    "start": "node backend/src/index.js",
-    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node backend/src/index.js"
   },
   "engines": {
     "node": "18.x"
